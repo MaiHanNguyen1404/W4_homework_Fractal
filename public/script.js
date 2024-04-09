@@ -1,3 +1,6 @@
+document.body.style.margin   = 0
+document.body.style.overflow = `hidden`
+
  // get and format canvas
  const cnv = document.getElementById ('fractal_tree_0')
  cnv.width = cnv.parentNode.scrollWidth
