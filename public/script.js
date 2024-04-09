@@ -2,12 +2,12 @@ document.body.style.margin   = 0
 document.body.style.overflow = `hidden`
 
  // get and format canvas
- const cnv = document.getElementById ('fractal_tree_0')
+ const cnv = document.getElementById (`fractal_tree_0`)
  cnv.width = cnv.parentNode.scrollWidth
  cnv.height = cnv.width * 9 / 16
 
 // get canvas context
-const ctx = cnv.getContext ('2d')
+const ctx = cnv.getContext (`2d`)
 
 // this is the recursive function that will draw the tree
 // it accepts three arguments:
