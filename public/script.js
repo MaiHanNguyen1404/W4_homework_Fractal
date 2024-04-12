@@ -47,4 +47,4 @@ function drawBranch (length) {
 
 }
 
-drawBranch (250)
+drawBranch (200)
